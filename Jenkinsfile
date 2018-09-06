@@ -10,6 +10,11 @@ pipeline {
                 steps {
                   echo '$PATH '
                 }
+             
+        stage('Deploy Build'){
+                steps {
+                  echo 'Deployed Bild'
+                }
         }
      }
   }
