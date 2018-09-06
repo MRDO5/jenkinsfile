@@ -2,7 +2,7 @@ pipeline {
      agent any 
      stages {
         stage('Test'){
-                step {
+                steps {
                   echo "Testing Helo ..."
                 }
         }
@@ -13,4 +13,3 @@ pipeline {
         }
      }
   }
-
